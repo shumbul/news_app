@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>📰  NEWS</title>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cabin|Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+
+    <div class="container-fluid news-tab">
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="News.html">Tech News</a>
+        <a href="science.html">Science</a>
+        <a href="business.html">Business</a>
+        <a href="sports.html">Sports</a>
+        <a href="general.html">General</a>
+      </div>
+
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ News Categories</button>
+      </div>
+
+      <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "5";
+        document.getElementById("main").style.marginLeft= "5";
+      }
+      </script>
+      <div class="header">
+        <h1>EXTRA BREAKING NEWS</h1>
+      </div>
+      <div class="articles">
+        <h3 id="type-of-news">General News</h3>
+        
+      <a id="news-url"href=https://www.youtube.com/watch?v=gZAbr0F4tcw  >➤Hope for slowing spread of coronavirus in China - Sky News Australia....</a><br><br>
+    
+      <a id="news-url"href=https://timesofindia.indiatimes.com/india/uddhavs-new-allies-ask-him-to-review-stand-on-caa-npr/articleshow/74262100.cms  >➤Uddhav’s new allies ask him to review stand on CAA-NPR - Times of India....</a><br><br>
+    
+      <a id="news-url"href=https://www.youtube.com/watch?v=yIYZaZuQGu8  >➤Samsung Galaxy S20 Ultra Unboxing and Camera Test - PhoneArena....</a><br><br>
+    
+      <a id="news-url"href=https://www.news18.com/news/hockey/india-vs-australia-fih-hockey-pro-league-2020-highlights-2-2511317.html  >➤India vs Australia, FIH Hockey Pro League 2020 HIGHLIGHTS: India Beat Australia in Penalty Shootout - News18....</a><br><br>
+    
+      <a id="news-url"href=https://timesofindia.indiatimes.com/india/activists-write-open-letter-against-namaste-trump-event-protest-fascist-alliance/articleshow/74261214.cms  >➤Activists write open letter against &#39;Namaste Trump&#39; event, protest &#39;fascist alliance&#39; - Times of India....</a><br><br>
+    
+      <a id="news-url"href=https://www.livemint.com/companies/news/berkshire-hathaway-100-ready-for-my-departure-warren-buffett-11582391221413.html  >➤Berkshire Hathaway 100% ready for my departure: Warren Buffett - Livemint....</a><br><br>
+    
+      <a id="news-url"href=https://economictimes.indiatimes.com/news/international/business/oecd-says-coronavirus-is-another-reason-to-boost-fiscal-stimulus/articleshow/74260641.cms  >➤OECD says coronavirus is another reason to boost fiscal stimulus - Economic Times....</a><br><br>
+    
+      <a id="news-url"href=https://scitechdaily.com/nasa-is-designing-a-venus-rover-concept-and-wants-your-help/  >➤NASA Is Designing a Venus Rover Concept and Wants Your Help - SciTechDaily....</a><br><br>
+    
+      <a id="news-url"href=https://news.google.com/__i/rss/rd/articles/CBMiZWh0dHBzOi8vd3d3LmNyaWNidXp6LmNvbS9jcmlja2V0LW5ld3MvMTEyMzkxL3dpbGxpYW1zb24taXNoYW50LWxlYWQtdGhlLXdheS1vbi1wdW5jaC1jb3VudGVycHVuY2gtZGF50gFnaHR0cHM6Ly9tLmNyaWNidXp6LmNvbS9hbXAvY3JpY2tldC1uZXdzLzExMjM5MS93aWxsaWFtc29uLWlzaGFudC1sZWFkLXRoZS13YXktb24tcHVuY2gtY291bnRlcnB1bmNoLWRheQ?oc=5  >➤Williamson, Ishant lead the way on punch-counterpunch day - Cricbuzz - Cricbuzz....</a><br><br>
+    
+      <a id="news-url"href=https://www.ndtv.com/world-news/russia-behind-massive-coronavirus-disinformation-campaign-says-us-2184211  >➤Russia Behind Massive Coronavirus Disinformation Campaign, Says US - NDTV News....</a><br><br>
+    
+      <a id="news-url"href=https://news.google.com/__i/rss/rd/articles/CBMie2h0dHBzOi8vd3d3LmZpbmFuY2lhbGV4cHJlc3MuY29tL2luZGlhLW5ld3MvdXAtc29uYmhhZHJhLWdvbGRtaW5lLWRpc2NvdmVyeS1nZW9sb2dpY2FsLXN1cnZleS1vZi1pbmRpYS1sYXRlc3QtbmV3cy8xODc2MTA2L9IBgAFodHRwczovL3d3dy5maW5hbmNpYWxleHByZXNzLmNvbS9pbmRpYS1uZXdzL3VwLXNvbmJoYWRyYS1nb2xkbWluZS1kaXNjb3ZlcnktZ2VvbG9naWNhbC1zdXJ2ZXktb2YtaW5kaWEtbGF0ZXN0LW5ld3MvMTg3NjEwNi9saXRlLw?oc=5  >➤No 3,000-tonne goldmine found in UP’s Sonbhadra, Geological Survey of India rubbishes reports - The Financial Express....</a><br><br>
+    
+      <a id="news-url"href=https://www.shine.cn/news/nation/2002222626/  >➤TCM aids treatments of over 60000 COVID-19 cases in China - SHINE....</a><br><br>
+    
+      <a id="news-url"href=https://www.ndtv.com/india-news/nationalism-bharat-mata-ki-jai-being-misused-to-construct-militant-idea-of-india-manmohan-singh-2184191  >➤Nationalism, &#34;Bharat Mata Ki Jai&#34; Being Misused To Construct Militant Idea Of India: Manmohan Singh - NDTV News....</a><br><br>
+    
+      <a id="news-url"href=https://www.neowin.net/news/mi-mix-alpha-out-now-in-select-stores-in-india/  >➤Mi MIX Alpha out now in select stores in India - Neowin....</a><br><br>
+    
+      <a id="news-url"href=https://www.republicworld.com/entertainment-news/whats-viral/frozen-bird-found-in-siberia-is-46000-year-old-researchers.html  >➤Frozen bird found in Siberia is 46,000-year-old: Researchers - Republic World - Republic World....</a><br><br>
+    
+      <a id="news-url"href=https://www.howtogeek.com/658842/how-to-use-google-chromes-new-deep-linking-feature/  >➤How to Use Google Chrome’s New Deep-Linking Feature - How-To Geek....</a><br><br>
+    
+      <a id="news-url"href=https://www.ndtv.com/india-news/donald-trump-to-be-gifted-key-of-agra-made-of-silver-during-taj-visit-2184166  >➤Donald Trump To Be Gifted &#34;Key Of Agra&#34; Made Of Silver During Taj Visit - NDTV News....</a><br><br>
+    
+      <a id="news-url"href=https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/ayushmann-khurrana-on-donald-trumps-praise-for-shubh-mangal-zyada-saavdhan-was-great-to-see-his-reaction/articleshow/74257427.cms  >➤Ayushmann Khurrana on Donald Trump&#39;s praise for &#39;Shubh Mangal Zyada Saavdhan&#39;: Was great to see his react - Times of India....</a><br><br>
+    
+      <a id="news-url"href=https://www.space.com/juno-finds-jupiter-water-mystery.html  >➤Surprise! There&#39;s more water on Jupiter than anyone thought - Space.com....</a><br><br>
+    
+      <a id="news-url"href=https://www.indiatoday.in/movies/celebrities/story/mika-singh-s-manager-saumya-samy-dies-of-drug-overdose-police-1649047-2020-02-22  >➤Mika Singh&#39;s manager Saumya Samy dies of drug overdose: Police - India Today....</a><br><br>
+    
+      </div>
+      <br><br><br><br><br>
+
+        <p id="footer">© 2020 Brought to you by Shumbul Arifa</p>
+
+
+    </div>
+
+  </body>
+</html>
